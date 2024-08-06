@@ -17,7 +17,7 @@ jobs:
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7620
-            vermagic: "88bbb0b8c80abf953ee5e7001a2ef514/"
+            vermagic: "88bbb0b8c80abf953ee5e7001a2ef514"
           - tag: "23.05.3"
             pkgarch: mipsel_24kc
             target: ramips
