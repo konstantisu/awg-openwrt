@@ -1,4 +1,4 @@
-name: Create Release on Tag
+name: ATH79 Generic
 # on: [workflow_dispatch]
 on:
   workflow_dispatch:
@@ -13,12 +13,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.3"
-            pkgarch: mips_24kc
-            target: ath79
-            subtarget: generic
-            vermagic: "34a8cffa541c94af8232fe9af7a1f5ba"
-          - tag: "23.05.4"
+          - tag: "23.05.5"
             pkgarch: mips_24kc
             target: ath79
             subtarget: generic
