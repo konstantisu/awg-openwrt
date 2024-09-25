@@ -1,4 +1,4 @@
-name: Create Release on Tag
+name: ipx807x
 # on: [workflow_dispatch]
 on:
   workflow_dispatch:
@@ -13,12 +13,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.3"
-            pkgarch: aarch64_cortex-a53
-            target: ipq807x
-            subtarget: generic
-            vermagic: "c35812baf517eff3d6cad14f62502fa7"
-          - tag: "23.05.4"
+          - tag: "23.05.5"
             pkgarch: aarch64_cortex-a53
             target: ipq807x
             subtarget: generic
