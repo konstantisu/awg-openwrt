@@ -1,4 +1,4 @@
-name: Create Release on Tag
+name: x86_64
 # on: [workflow_dispatch]
 on:
   workflow_dispatch:
@@ -13,12 +13,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.3"
-            pkgarch: x86_64
-            target: x86
-            subtarget: 64
-            vermagic: "e496746edd89318b9810e48e36a8bd9c"
-          - tag: "23.05.4"
+          - tag: "23.05.5"
             pkgarch: x86_64
             target: x86
             subtarget: 64
