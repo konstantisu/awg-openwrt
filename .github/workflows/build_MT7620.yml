@@ -1,4 +1,4 @@
-name: Create Release on Tag
+name: MT7620
 # on: [workflow_dispatch]
 on:
   workflow_dispatch:
@@ -13,17 +13,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "22.03.3"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7620
-            vermagic: "88bbb0b8c80abf953ee5e7001a2ef514"
-          - tag: "23.05.3"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7620
-            vermagic: "51d8e34c6fc1acbb504dc09cfad98012"
-          - tag: "23.05.4"
+          - tag: "23.05.5"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7620
