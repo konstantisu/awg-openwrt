@@ -1,4 +1,4 @@
-name: Create Release on Tag
+name: MT7622
 # on: [workflow_dispatch]
 on:
   workflow_dispatch:
