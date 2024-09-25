@@ -13,12 +13,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.3"
-            pkgarch: aarch64_cortex-a53
-            target: mediatek
-            subtarget: mt7622
-            vermagic: "03c9d191cd600eae3e66845031612f0a"
-          - tag: "23.05.4"
+          - tag: "23.05.5"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7622
